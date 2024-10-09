@@ -23,9 +23,15 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  font-size: 24px;
+}
+
 .links {
   display: flex;
   gap: 12px;
+  font-size: 18px;
+  color: #cacaca;
 }
 
 /* HEADERBLOCK */
@@ -39,10 +45,50 @@ header {
 }
 
 .headerblock > * {
-  max-width: 20rem;
+  max-width: 21rem;
+}
+
+.headerblock h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.headerblock p {
+  font-size: 18px;
+  color: #cacaca;
 }
 
 .image img {
   max-width: 100%;
   height: auto;
 }
+
+/* IMAGEBAR */
+.imagebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.imagebar h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.images > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* QUOTE */
