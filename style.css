@@ -15,6 +15,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 10px 50px 100px 50px;
+  align-items: space-between;
 }
 
 /* LINKBAR */
@@ -37,10 +38,9 @@ header {
 /* HEADERBLOCK */
 .headerblock {
   display: flex;
-  padding-top: 50px;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: space-between;
+  padding-top: 50px;
   gap: 2rem;
 }
 
@@ -58,9 +58,16 @@ header {
   color: #cacaca;
 }
 
+.headerblock button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+
 .image img {
-  max-width: 100%;
-  height: auto;
+  max-width: 112%;
 }
 
 /* IMAGEBAR */
@@ -91,4 +98,54 @@ header {
   align-items: center;
 }
 
+.images img {
+  border-radius: 15px;
+  border: 3px solid #3882f6;
+}
+
 /* QUOTE */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px 150px;
+  background-color: #e5e7eb;
+  font-size: 35px;
+}
+
+.quote i {
+  color: #1f2937;
+}
+
+.quote p {
+  text-align: right;
+}
+
+/* DONATE */
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 20px 50px;
+  margin: 100px 50px;
+}
+
+.modal button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 30px 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  padding: 20px;
+}
